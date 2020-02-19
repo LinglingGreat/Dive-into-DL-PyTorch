@@ -12,6 +12,10 @@ features = torch.randn((n_train + n_test, 1))
 poly_features = torch.cat((features, torch.pow(features, 2), torch.pow(features, 3)), 1) 
 ```
 
+### plt.semilogy函数
+
+ semilogx（），semilogy（），loglog（）分别表示对X轴，Y轴，XY轴取对数。 
+
 
 
 ### 使用权重衰减和L2惩罚项
